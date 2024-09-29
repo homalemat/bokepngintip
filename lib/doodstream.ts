@@ -52,7 +52,7 @@ class Doodstream {
 
     async listFiles({
         page = 1,
-        per_page = DEFAULT_PER_PAGE,
+        per_page = 20,
         fld_id = "",
     }: {
         page?: number;
