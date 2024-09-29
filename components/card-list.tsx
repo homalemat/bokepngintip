@@ -10,7 +10,7 @@ const CardList = async ({
     fld_id,
 }: {
     page: number;
-    per_page: 20 | number;
+    per_page: 20;
     fld_id: string | undefined;
 }) => {
     const data = await doodstream.listFiles({ page, per_page, fld_id });
